@@ -11,12 +11,15 @@ body {
     color: #ede4e4;
     min-height: 100vh;
     line-height: 1.5;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
-a{
+a:link,
+a:visited{
     text-decoration: none;
 }
+
 
 /* GRADIENT WORK */
 .image_gradient {
@@ -164,17 +167,18 @@ main {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.248);
 }
 
-.btns{
-    display: flex;
-    gap: 1rem;
-    margin-top: 3rem;
-}
 
 .des{
     color: grey;
     font-size: 1.2rem;
     max-width: 35rem;
     letter-spacing: 0.05rem;
+}
+
+.btns{
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
 }
 
 .get_start{
@@ -192,7 +196,7 @@ main {
 }
 
 .main_signin{
-
+    display: inline-flex;
     padding: 0.6rem 2.5rem;
     border-radius: 50px;
     font-size: 1.2rem;
@@ -200,7 +204,8 @@ main {
     transition: background-color 0.2s ease;
     background-color: lightgray;
     color: black;
-letter-spacing: 0.1rem;
+/* letter-spacing: 0.1rem; */
+
 
 }
 
