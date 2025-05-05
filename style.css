@@ -222,6 +222,11 @@ main {
 }
 
 
+.bottom{
+    display: none;
+    height: 20rem;
+}
+
 @media(max-width : 1300px)
 {
     header{
@@ -234,6 +239,10 @@ main {
     .robo_3d{
         top: -20%;
         right: 2%;
+    }
+    .bottom{
+        display: flex;
+        height: 20rem;
     }
 }
 
